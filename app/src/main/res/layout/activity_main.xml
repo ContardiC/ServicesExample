@@ -14,7 +14,7 @@
         android:id="@+id/buttonStart"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Start Service"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="99dp" />
 
@@ -23,7 +23,7 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:text="Button"
+        android:text="Stop Service"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="379dp" />
 </LinearLayout>

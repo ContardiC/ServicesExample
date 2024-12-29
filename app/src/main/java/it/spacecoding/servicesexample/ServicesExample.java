@@ -23,6 +23,9 @@ public class ServicesExample extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.d("Service", "Service is started");
+        // stopSelf();
+        // se per esempio il servizio esegue un download
+        // con questo metodo il servizio si fermerà automaticamente dopo il download
         return super.onStartCommand(intent, flags, startId);
     }
 
